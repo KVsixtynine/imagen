@@ -1,0 +1,104 @@
+ * {
+  margin: 0;
+  padding: 0;
+ }
+ body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    overflow: hidden;
+    background-color: white;
+ }
+ .container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  background-color: gray;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > * {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.generatedIMG {
+  width: 40%;
+}
+.promptZone {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.promptZone > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#prompt {
+  width: 100%;
+  height: 150px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  width: 50%;
+  font-size: 18px;
+  text-align: center;
+}
+option {
+  text-align: center;
+}
+
+button[id="generate"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+.resultImg {
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+.job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.img {
+    max-width: 400px;
+    margin: 20px;
+}
+
+
+
+

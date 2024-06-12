@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Let creation guide your way</h1>
+    <img class="generatedIMG" alt="Generated Image" src="https://scontent-hou1-1.xx.fbcdn.net/o1/v/t0/f1/m250/upload_img_py_pred_06_09_2024_16_30_20_5070615794493990236.jpeg?_nc_ht=scontent-hou1-1.xx.fbcdn.net&_nc_cat=108&ccb=9-4&oh=00_AYAnNtxNIyrPIrjruHPFRtp__JyPJ3MENP_8lXMVn85Vbw&oe=66681BFE&_nc_sid=5b3566">
+    <div class="promptZone">
+        <textarea type="text" id="prompt" placeholder=" Enter your prompt..."></textarea>
+        <select id="style"> 
+            <option value="no style">Default Style</option>
+            <option value="3840 x 2160">3840 x 2160</option>
+            <option value="2560 x 1440">2560 x 1440</option>
+            <option value="Photo">Photo</option>
+            <option value="Anime">Anime</option>
+            <option value="Cinematic">Cinematic</option>
+            <option value="3D Model">3D Model</option>   
+        </select>
+    </div>
+    <h2>Your queue number: 0</h2>
+    <button id="generate">Generate</button>
+  </div>
+  <div class="resultImg">
+    <div class="job">
+        <h3 class="jobPrompt">Professional fashion portrait, innovative fashion, BREAK [by rella:by chicken utk:0.7], BREAK [3d:photorealistic:0.6], BREAK 1girl, gothic horror, dark fantasy, detailed face, eerie beauty, hauntingly beautiful, sinister elegance, macabre aesthetic, ghostly, shadowy, mysterious, ethereal, haunted eyes, pale skin, melancholy gaze, lost soul, spectral beauty, BREAK Denim collared shirt half-tucked into a denim flared skirt, layered with a leather jacket and ankle boots., BREAK moonlit night, fog-enshrouded, spectral glow, decaying elegance, victorian gothic, whispering shadows, chilling atmosphere, supernatural horror, cursed beauty, otherworldly allure, deep darkness, velvet darkness, enigmatic portrait, BREAK gothic horror perspective, close up, Depth of Field, sharp focus, vintage, faded film, film grain, LUT, taken by Joel Meyerowitz, BREAK beautiful color, aesthetic, detailed, amazing quality, best quality, high quality,</h3>
+        <img class="img" alt="Image" src="https://imageto3d.blob.core.windows.net/data/generated_images/image.png_b157b950-31ee-4e4c-ac9b-26aac5f1bc04.png.png?sp=racwdli&st=2024-01-23T06:09:02Z&se=2029-01-23T14:09:02Z&sv=2022-11-02&sr=c&sig=EEfQQHg%2FsZY%2B4jbTfk256NRZmi7Dtzvr7m7Z%2F8aLFHE%3D">
+        <img class="img" alt="Image" src="https://imageto3d.blob.core.windows.net/data/generated_images/image.png_2b9ff03c-dc73-4b27-a91e-340f07eca92b.png.png?sp=racwdli&st=2024-01-23T06:09:02Z&se=2029-01-23T14:09:02Z&sv=2022-11-02&sr=c&sig=EEfQQHg%2FsZY%2B4jbTfk256NRZmi7Dtzvr7m7Z%2F8aLFHE%3D">
+    </div>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
