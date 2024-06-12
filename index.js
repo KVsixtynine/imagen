@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 // CORS Configuration (Only allow your specific frontend origin)
 const corsOptions = {
-  origin: "https://huggingface.co/spaces/kevin666444/imagen",
+  origin: "https://imagen-psi.vercel.app",
   methods: ["GET", "POST"], // Adjust methods as needed
   allowedHeaders: ["Content-Type", "Authorization"], // Add any other headers
 };
