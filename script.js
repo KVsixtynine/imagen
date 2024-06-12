@@ -1,4 +1,4 @@
-const apiBaseUrl = 'https://huggingface.co/spaces/kevin666444/imagen'; // Replace with your actual API URL
+const apiBaseUrl = 'https://imagen-psi.vercel.app'; // Replace with your actual API URL
 const generateBtn = document.getElementById("generate");
 const promptInput = document.getElementById("prompt");
 const styleSelect = document.getElementById("style");
