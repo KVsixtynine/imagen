@@ -41,7 +41,7 @@ app.get("/generate/:prompt/:style", async (req, res) => {
 });
 
 // Used to keep this awake
-app.use("/myping", (req, res) => {
+app.get("/myping", (req, res) => {
   // Define a keep-alive endpoint
   res.send("Ping!"); // Send a response to keep the server alive
 });
