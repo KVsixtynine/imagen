@@ -40,6 +40,11 @@ app.get("/generate/:prompt/:style", async (req, res) => {
   }
 });
 
+// Used to keep this awake
+app.use("/myping", (req, res) => {
+  // Define a keep-alive endpoint
+  res.send("Ping!"); // Send a response to keep the server alive
+});
 
 app.listen(port, () => {
     console.log(`Server listening at http://localhost:${port}`);
